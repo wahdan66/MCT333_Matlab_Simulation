@@ -1,40 +1,58 @@
-# Autosave files
+# ==========================================
+# MATLAB & Simulink
+# ==========================================
+# Simulink cache, code gen, and temporary files
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*_sf.mex*
 *.asv
 *.m~
-*.autosave
-*.slx.r*
-*.mdl.r*
-
-# Derived content-obscured files
-*.p
-
-# Compiled MEX files
-*.mex*
-
-# Packaged app and toolbox files
-*.mlappinstall
-*.mltbx
-
-# Deployable archives
-*.ctf
-
-# Generated helpsearch folders
-helpsearch*/
-
-# Code generation folders
-slprj/
-sccprj/
+*.slx~
+*.mdl~
+*.bak
+*.log
 codegen/
 
-# Cache files
-*.slxc
+# MATLAB project local workspace state
+.SimulinkProject/
+resources/project/Root.type.xml.p*
 
-# Cloud based storage dotfile
-.MATLABDriveTag
+# ==========================================
+# ESP32 / Embedded C++ (PlatformIO & Arduino)
+# ==========================================
+# PlatformIO build directories and local packages
+.pio/
+.pioenvs/
+.piolibdeps/
 
-# buildtool cache folder
-.buildtool/
+# Arduino / ESP-IDF build binaries
+applet/
+build/
+*.hex
+*.elf
+*.bin
+sdkconfig.old
 
-# SimBiology backup files
-*.sbproj.backup
-*.sbproj.bak
+# IDE & Editor configurations
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ==========================================
+# Autodesk Inventor & CAD
+# ==========================================
+# Inventor lock, temporary, and backup files
+*.lck
+*.tmp
+OldVersions/
+*.idv
+*.ipj.lck
+
+# ==========================================
+# Operating System Files
+# ==========================================
+Thumbs.db
+Desktop.ini
+.DS_Store
